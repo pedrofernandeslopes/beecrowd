@@ -7,6 +7,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Input
-        int product = 
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+
+        //Processing
+        int product = A * B;
+
+        //Output
+        System.out.println("PROD = " + product);
+        scanner.close();
     }
 }
