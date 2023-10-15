@@ -1,23 +1,14 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
 
-public class Main {
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
 
-public static void main(String[] args) throws IOException {
+        int X = A + B;
 
-InputStreamReader ir = new InputStreamReader(System.in);
-BufferedReader in = new BufferedReader(ir);
-
-int A, B, X;
-
-A = Integer.parseInt(in.readLine());
-B = Integer.parseInt(in.readLine());
-
-X = A + B;
-
-System.out.printf("X = %d\n", X);
-
-}
-
+        System.out.println("X = " + X);
+        scanner.close();
+    }
 }
