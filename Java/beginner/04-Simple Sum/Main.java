@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+
+        //Declaration
+        Scanner scanner = new Scanner(System.in);
+
+        //Input
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+
+        //Processing
+        int sum = A + B;
+
+        //Output
+        System.out.println("SOMA = " + sum);
+        scanner.close();
+    }
+}
