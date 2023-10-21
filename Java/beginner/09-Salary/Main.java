@@ -7,15 +7,16 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         //Input
-        double number = scanner.nextDouble();
-        double salary = scanner.nextDouble();
-        double time = scanner.nextDouble();
+        int employeeNumber = scanner.nextInt();
+        int workedHours = scanner.nextInt();
+        double hourlyRate = scanner.nextDouble();
 
         //Processing
-        double salary = 
+        double salary =  workedHours * hourlyRate;
 
         //Output
-        System.out.println();
+        System.out.printf("NUMBER = %s\n", employeeNumber);
+        System.out.printf("SALARY = U$ %.2f\n", salary);
         scanner.close();
     }
 }
