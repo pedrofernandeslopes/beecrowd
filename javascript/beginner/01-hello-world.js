@@ -1,2 +1,4 @@
-//Your first program in any programming language is usually "Hello World!". In this first problem all you have to do is print this message on the screen.
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 console.log('Hello World!');
