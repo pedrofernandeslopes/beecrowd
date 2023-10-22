@@ -1,11 +1,8 @@
-// The formula to calculate the area of a circumference is defined as A = π . R2. Considering to this problem that π = 3.14159:
-// Calculate the area using the formula given in the problem description.
-
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-let R = parseFloat(lines.shift());
-const n = 3.14159;
+var n = 3.14159;
+var raio = parseFloat(lines.shift());
+var area = n * (raio * raio);
 
-A = (n * R * R).toFixed(4);
-console.log(`A = {A}`);
-
+console.log(`A=${area.toFixed(4)}`);
