@@ -1,10 +1,11 @@
-//Faça um programa que leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável X.
-
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
+
 var A = parseInt(lines.shift());
 let B = parseInt(lines.shift());
+x = A + B;
 
-X = A + B;
-console.log(`X = ${X}`);
+console.log(`X = ${x}`);
+
 
 
