@@ -35,6 +35,6 @@ Contribuições são sempre bem-vindas! Se você tiver uma solução alternativa
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 📞 Contato
+## 🌐 Redes Sociais
 
 LinkedIn - https://www.linkedin.com/in/pedrofernandeslopes/
