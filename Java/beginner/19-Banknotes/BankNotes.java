@@ -5,7 +5,7 @@ public class BankNotes {
         Scanner scanner = new Scanner(System.in);
 
         int value = scanner.nextInt();
-        System.out.println("Informe a quantia: " + value);
+        System.out.println(value);
 
         int[] banknotes = {100, 50, 20, 10, 5, 2, 1};
         int[] count = new int[7];
