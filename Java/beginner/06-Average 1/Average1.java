@@ -20,3 +20,5 @@ public class Average1 {
         scanner.close();
     }
 }
+
+
