@@ -14,7 +14,11 @@ public class SimpleProduct {
         int product = A * B;
 
         //Output
-        System.out.println("PROD = " + product);
+        System.out.printf("PROD = %d\n", product);
         scanner.close();
     }
 }
+
+
+
+
