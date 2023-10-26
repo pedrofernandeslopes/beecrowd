@@ -14,7 +14,10 @@ public class SimpleSum {
         int sum = A + B;
 
         //Output
-        System.out.println("SOMA = " + sum);
+        System.out.printf("SOMA = %d\n", sum);
         scanner.close();
     }
 }
+
+
+
