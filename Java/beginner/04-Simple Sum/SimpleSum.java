@@ -15,6 +15,7 @@ public class SimpleSum {
 
         //Output
         System.out.printf("SOMA = %d\n", sum);
+        
         scanner.close();
     }
 }
