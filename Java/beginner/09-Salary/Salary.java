@@ -17,7 +17,6 @@ public class Salary{
         //Output
         System.out.printf("NUMBER = %s\n", employeeNumber);
         System.out.printf("SALARY = U$ %.2f\n", salary);
-        
         scanner.close();
     }
 }
