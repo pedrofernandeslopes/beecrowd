@@ -18,7 +18,6 @@ public class Average2{
 
         //Output
         System.out.printf("MEDIA = %.1f%n", average);
-        
         scanner.close();
     }
 }
