@@ -17,6 +17,7 @@ public class Difference{
 
         //Output
         System.out.println("DIFERENCA = " + DIFERENCA);
+        
         scanner.close();
     }
 }
